@@ -47,7 +47,7 @@ const navbarItems = [
 
 const Navbar = () => {
   const pasthname = usePathname();
-  const [isSidbarOpen, setSidbarOpen ] =  useState(true)
+  const [isSidbarOpen, setSidbarOpen ] =  useState(false)
   return (
     <nav>
 
